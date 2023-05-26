@@ -1,7 +1,8 @@
 import React from "react";
+import Links from "./Links"
 
 function getBio(bio){
-  if(bio === null || bio == ""){
+  if(bio == null || bio == ""){
     return null
   } else return <p>{bio}</p>
 }
